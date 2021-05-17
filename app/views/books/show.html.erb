@@ -1,5 +1,5 @@
 <div class="success">
-  <% if flash[:notice] %>
+<% if flash[:notice] %>
 <%= flash[:notice] %>
 <% end %></div>
 
@@ -10,5 +10,5 @@
 
 <div class="edit">
   <%= link_to "Edit", edit_book_path(@book.id) %>
-  <%= link_to "Back", books_path(@book.id) %>
+  <%= link_to "Back", books_path%>
 </div>
